@@ -26,7 +26,7 @@
     }
 }(function ($, window, document) {
     'use strict';
-    let DataTable = $.fn.dataTable;
+    var DataTable = $.fn.dataTable;
     $.extend(true, DataTable.SearchPane.classes, {
         buttonGroup: 'secondary button-group',
         disabledButton: 'disabled',
@@ -39,12 +39,12 @@
         search: 'search',
         searchLabelCont: 'searchCont',
         show: 'col',
-        table: 'unstriped',
+        table: 'unstriped'
     });
     $.extend(true, DataTable.SearchPanes.classes, {
         clearAll: 'dtsp-clearAll button secondary',
         panes: 'panes dtsp-panesContainer',
-        title: 'dtsp-title',
+        title: 'dtsp-title'
     });
     return DataTable.searchPanes;
 }));
