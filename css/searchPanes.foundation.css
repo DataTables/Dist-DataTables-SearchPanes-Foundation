@@ -283,11 +283,28 @@ div.dtsp-searchPane div.dtsp-topRow div.dtsp-searchCont div.dtsp-searchButtonCon
   flex-shrink: 0;
   flex-basis: 0;
 }
-div.dtsp-searchPane td.dtsp-countColumn {
-  text-align: right;
+div.dtsp-searchPane table {
+  table-layout: fixed;
 }
-div.dtsp-searchPane span.badge {
-  float: right;
+div.dtsp-searchPane table tbody tr td.dtsp-nameColumn {
+  width: 100% !important;
+}
+div.dtsp-searchPane table tbody tr td.dtsp-nameColumn div.dtsp-nameCont {
+  width: 100%;
+}
+div.dtsp-searchPane table tbody tr td.dtsp-nameColumn div.dtsp-nameCont span.dtsp-name {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: inline-block;
+  width: calc(100% - 36px);
+  vertical-align: middle;
+}
+div.dtsp-searchPane table tbody tr td.dtsp-nameColumn div.dtsp-nameCont span.badge {
+  min-width: 30px;
+  display: inline-block;
+}
+div.dtsp-searchPane table tbody tr td.dtsp-countColumn {
+  text-align: right;
 }
 
 div.dtsp-searchPanes {
