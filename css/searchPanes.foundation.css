@@ -298,6 +298,7 @@ div.dtsp-searchPane table tbody tr td.dtsp-nameColumn div.dtsp-nameCont span.dts
   display: inline-block;
   width: calc(100% - 36px);
   vertical-align: middle;
+  white-space: nowrap;
 }
 div.dtsp-searchPane table tbody tr td.dtsp-nameColumn div.dtsp-nameCont span.badge {
   min-width: 30px;
