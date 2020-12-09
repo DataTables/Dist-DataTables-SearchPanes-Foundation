@@ -30,7 +30,6 @@
     $.extend(true, DataTable.SearchPane.classes, {
         buttonGroup: 'secondary button-group',
         disabledButton: 'disabled',
-        dull: 'disabled',
         narrow: 'dtsp-narrow',
         narrowButton: 'dtsp-narrowButton',
         narrowSearch: 'dtsp-narrowSearch',
@@ -43,6 +42,7 @@
     });
     $.extend(true, DataTable.SearchPanes.classes, {
         clearAll: 'dtsp-clearAll button secondary',
+        disabledButton: 'disabled',
         panes: 'panes dtsp-panesContainer',
         title: 'dtsp-title'
     });
