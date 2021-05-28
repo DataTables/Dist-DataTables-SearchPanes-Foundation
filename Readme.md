@@ -19,7 +19,7 @@ npm install datatables.net-searchpanes-zf
 
 ```
 var $ = require( 'jquery' );
-var dt = require( 'datatables.net-searchpanes-zf}' )( window, $ );
+var dt = require( 'datatables.net-searchpanes-zf' )( window, $ );
 ```
 
 ### bower
