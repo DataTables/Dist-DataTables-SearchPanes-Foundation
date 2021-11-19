@@ -306,4 +306,8 @@ div.dtsp-searchPane div.dataTables_wrapper div.dtsp-nameCont span.badge {
   min-width: 30px;
   line-height: 1.25em;
   margin-top: 2.5px;
+  border-radius: 9px;
+}
+div.dtsp-searchPane div.dataTables_wrapper div.dtsp-nameCont span.badge:empty {
+  display: none;
 }
