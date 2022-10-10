@@ -1,7 +1,9 @@
 {
     "js": [
         "js/searchPanes.foundation.js",
-        "js/searchPanes.foundation.min.js"
+        "js/searchPanes.foundation.min.js",
+        "js/searchPanes.foundation.min.mjs",
+        "js/searchPanes.foundation.mjs"
     ],
     "css": [
         "css/searchPanes.foundation.css",
@@ -11,6 +13,5 @@
         "types/searchPanes.foundation.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/SearchPanes",
-    "last-tag": "2.0.0",
-    "last-sync": "280e1ee3a2307f81ee91dd9f5165f5673d4f53f9"
+    "last-tag": "2.0.2"
 }
