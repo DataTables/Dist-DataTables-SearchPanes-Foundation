@@ -10,7 +10,8 @@
         "css/searchPanes.foundation.min.css"
     ],
     "types": [
-        "types/searchPanes.foundation.d.ts"
+        "types/searchPanes.foundation.d.ts",
+        "types/types.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/SearchPanes",
     "last-tag": "2.0.2"
