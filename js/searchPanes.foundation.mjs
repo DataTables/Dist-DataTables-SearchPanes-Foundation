@@ -6,7 +6,6 @@ import $ from 'jquery';
 import DataTable from 'datatables.net-zf';
 import SearchPanes from 'datatables.net-searchpanes';
 
-
 $.extend(true, DataTable.SearchPane.classes, {
     buttonGroup: 'secondary button-group',
     disabledButton: 'disabled',
