@@ -321,13 +321,13 @@ div.dtsp-searchPane div.dtsp-topRow button.dtsp-collapseButton span.dtsp-caret {
   top: 3px;
 }
 div.dtsp-searchPane div.dtsp-topRow button.dtsp-searchIcon span {
-  filter: invert();
+  filter: invert(1);
 }
 div.dtsp-searchPane div.dtsp-topRow button.dtsp-nameButton span {
-  filter: invert();
+  filter: invert(1);
 }
 div.dtsp-searchPane div.dtsp-topRow button.dtsp-countButton span {
-  filter: invert();
+  filter: invert(1);
 }
 div.dtsp-searchPane div.dtsp-topRow.dtsp-bordered:hover button.disabled {
   cursor: pointer !important;
