@@ -27,7 +27,7 @@ import DataTable from 'datatables.net-zf';
 import 'datatables.net-searchpanes-zf'
 
 new DataTable('#myTable', {
-    // initalisation options
+    // initialisation options
 });
 ```
 
