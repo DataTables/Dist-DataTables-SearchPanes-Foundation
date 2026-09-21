@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-searchpanes-zf",
     "description": "SearchPanes for DataTables with styling for [Foundation](https://get.foundation/)",
-    "main": "js/searchPanes.foundation.js",
-    "module": "js/searchPanes.foundation.mjs",
-    "style": "css/searchPanes.foundation.css",
+    "main": "./js/searchPanes.foundation.js",
+    "module": "./js/searchPanes.foundation.mjs",
+    "style": "./css/searchPanes.foundation.css",
     "types": "./types/searchPanes.foundation.d.ts",
     "version": "2.3.5",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "SearchPanes",
@@ -48,5 +47,24 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/DataTables/Dist-DataTables-SearchPanes-Foundation.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/searchPanes.foundation.d.ts",
+            "import": "./js/searchPanes.foundation.mjs",
+            "default": "./js/searchPanes.foundation.mjs",
+            "require": "./js/searchPanes.foundation.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/searchPanes.foundation.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
