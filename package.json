@@ -51,9 +51,10 @@
     "exports": {
         ".": {
             "types": "./types/searchPanes.foundation.d.ts",
+            "style": "./css/searchPanes.foundation.css",
             "import": "./js/searchPanes.foundation.mjs",
-            "default": "./js/searchPanes.foundation.mjs",
-            "require": "./js/searchPanes.foundation.js"
+            "require": "./js/searchPanes.foundation.js",
+            "default": "./js/searchPanes.foundation.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
