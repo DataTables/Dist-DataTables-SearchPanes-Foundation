@@ -5,7 +5,7 @@
     "module": "./js/searchPanes.foundation.mjs",
     "style": "./css/searchPanes.foundation.css",
     "types": "./types/searchPanes.foundation.d.ts",
-    "version": "2.3.5",
+    "version": "3.0.0",
     "files": [
         "js",
         "css",
@@ -22,8 +22,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-searchpanes": "3.0.0-beta.1",
-        "datatables.net-zf": "^3"
+        "datatables.net-searchpanes": "3.0.0",
+        "datatables.net-zf": "^3.1"
     },
     "author": {
         "name": "SpryMedia Ltd",
